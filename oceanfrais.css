@@ -1,6 +1,24 @@
 #fond{background-color:#00283d;width:1500px; margin:0 auto;height:1000px}
 img{max-width:100%;height:auto}
 #fond>div{margin: 0 auto;width: 600px;padding:30px}
-a{color:#0085ca;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+#fond>a{color:#0085ca;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
     'Helvetica Neue', sans-serif;display:block;width: 100px;margin:0 auto;font-size: xx-large;}
+    /* Css bandeau  contact*/
+article a{font-size: 20px;color:pink;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 
+#contact{height: 50px;background-color: pink;}
+#contact div{color:white;height:45px;width :1000px;left:250px;background-color:black;position: absolute;padding:0px}
+#contact>div>img{width:20px;height:auto}
+span img{width:40px;height:auto}
+#contact>div>span{ right: 100px;position: absolute;}
+
+/* Css menu blanc horizontal*/
+#menu{height:100px;background-color:white}
+  #menu>div{height:100px;width :1000px;left:250px;background-color: red;position: absolute;
+  margin:0px auto;top:60px;color:black}
+#menu>div>img{float:left;margin-right: 50px;width:auto; height:100px}
+#menu>div>div:last-child{transform: translateY(-20px);float:left;width:80px;height:30px;
+  background-color: red;margin-left: 100px;padding-top:7px;text-align: center;font-weight: bold;color:white}
+  #menu>div>div:first-child{width:40px;height:auto;}
+  #menu>div>a{margin-right:100px;width: 80px;height:45px;background-color: white;top:-15px;float: left;transform: translateY(10px);color:black}
+.borderouge{border-bottom: solid 5px red}
