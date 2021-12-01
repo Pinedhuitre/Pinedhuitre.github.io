@@ -1,5 +1,8 @@
-#fond{background-color: yellow;width:1500px; margin:0 auto;height:1000px}
+body{width:100%}
+#fond{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  ;background-color: yellow;}
 img{max-width:100%;height:auto}
+hr {height: 4px; color: #839D2D; background-color: #839D2D; width: 50%; border: none}
 #fond>div{margin: 0 auto;width: 600px;padding:30px}
 #fond>a{color:#0085ca;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
     'Helvetica Neue', sans-serif;display:block;width: 100px;margin:0 auto;font-size: xx-large;}
@@ -12,25 +15,12 @@ header{display:flex;justify-content: space-between;height:100px;background-color
 .item3{display:flex;justify-content: flex-end;text-align: center;}
 .it3b img{height:40px;width:auto;padding:30px}
 
-/*#contact{height: 50px;background-color: pink;}
-#contact div{color:white;height:45px;width :1000px;left:250px;background-color:black;position: absolute;padding:0px}
-#contact>div>img{width:20px;height:auto}
-#contact span img{width:40px;height:auto}
-#contact>div>span{ right: 100px;position: absolute;}
-*/
-/* Css menu blanc horizontal*/
-#menu{height:100px;background-color:white}
-  #menu>div{height:100px;width :1000px;left:250px;background-color: red;position: absolute;
-  margin:0px auto;top:60px;color:black}
-#menu>div>img{float:left;margin-right: 50px;width:auto; height:100px}
-#menu>div>div:last-child{transform: translateY(-20px);float:left;width:80px;height:30px;
-  background-color: red;margin-left: 100px;padding-top:7px;text-align: center;font-weight: bold;color:white}
-  #menu>div>div:first-child{width:40px;height:auto;}
-  #menu>div>a{margin-right:50px;width: 80px;height:45px;background-color: white;top:-15px;float: left;transform: translateY(10px);color:black}
-.borderouge{border-bottom: solid 5px red}
+/* css main ocean frais et video*/
 
+.container1{display:flex;justify-content: flex-start;}
+.box{flex:1}
+.box1{flex:2}
 
-/* css logo main*/
-section{width :1000px;left:250px;background-color: blue;position: absolute;max-width:1000px;height:auto;margin:0 auto}
-section>div>span>img{width:498px;height:350px}
-section>div:last-child{width: 600px;margin:0 auto}
+.container2{display: flex;justify-content: space-between;font-size: x-large;text-align: center;}
+.box2{flex:1;padding: top 300px;}
+.video{flex:2}
