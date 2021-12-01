@@ -1,14 +1,18 @@
-body{width:100%}
+body{width:100%;height: 100%;background-color:#00283d}
 #fond{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-  ;background-color: yellow;}
+  ;color:#0085ca;margin-bottom: 30px;}
+
+  a{color:white;}
+  h1{color:white}
+  strong{color:white}
 img{max-width:100%;height:auto}
-hr {height: 4px; color: #839D2D; background-color: #839D2D; width: 50%; border: none}
+hr {height: 1px; color: #0085ca; width: 100%; border: none;background-color: #0085ca;}
 #fond>div{margin: 0 auto;width: 600px;padding:30px}
 #fond>a{color:#0085ca;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
     'Helvetica Neue', sans-serif;display:block;width: 100px;margin:0 auto;font-size: xx-large;}
 
     /* Css bandeau  contact*/
-header{display:flex;justify-content: space-between;height:100px;background-color: pink;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+header{display:flex;justify-content: space-between;height:100px;;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 .item1{width: 100px;background-image: url(./img/Photo\ 08-11-2021\ 11\ 19\ 49\ \(1\).jpg);background-size: 100px 100px;}
 .item2{display:flex;align-items: center;}
 .it2b{width:200;text-align: center;margin-left: 50px;}
@@ -18,11 +22,15 @@ header{display:flex;justify-content: space-between;height:100px;background-color
 /* css main ocean frais et video*/
 
 .container1{display:flex;justify-content: flex-start;}
-.box{flex:1}
+.box{flex:1;padding-top: 12%;}
 .box1{flex:2}
 
 .container2{display: flex;justify-content: space-between;font-size: x-large;text-align: center;}
-.box2{flex:1;padding: top 300px;}
+.box2{flex:1;padding: 30px;}
 .video{flex:2}
 
-/* footer/
+/* footer*/
+footer{display: flex;height:100px;justify-content: space-around;font-size: small;text-align: center;align-items: center;}
+.footer1{display: flex;justify-content: space-around;align-items: center;}
+.fb1{width:150px;padding: 30px}
+.footer2{border-right:1px solid #0085ca;border-left:1px solid #0085ca;padding-right: 100px;padding-left: 100px;}
