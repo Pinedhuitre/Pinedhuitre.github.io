@@ -38,10 +38,20 @@ footer{display: flex;height:100px;justify-content: space-around;font-size: small
 /*nos produits*/
 #fondbois{background-image: url(./img/boards-black-line-texture-background-wood-wallpaper-wood-texture-wallpapers.jpg);}
 .containertarif{display: flex;justify-content:space-around;height:600px;color: white;font-size: large;}
+.containertarif1{display: flex;justify-content:space-around;height:600px;color: white;font-size: large;flex-direction: row-reverse;}
+.containertarif3{display: flex;justify-content:space-around;height:600px;color: white;font-size: large;flex-direction: row-reverse;}
 .photohuitreG img{height: 600px;}
 .containerTableau{display:flex ;flex-direction: column;justify-content:space-around;align-items: center;}
-.tableauG{width:450px}
+
+.tableACote{display:flex;justify-content: space-around;}
 .containerTableau img{width:300px}
+.tableauG1{width:750px}
+table{border-left: white 1px solid;border-right: white 1px solid}
 th{width:150px;height:100px;}
 td{width:150px;text-align:center;height:25px}
 caption{font-size: xx-large;}
+
+.PhotoVin{max-width: 600px;}
+.tableauC td:first-child,.tableauC td:nth-child(2),.tableauD td:first-child,.tableauD td:nth-child(2){width: 250px}
+.PhotoEpicerie{max-width: 400px;}
+.tableauD tr{height:55px}
