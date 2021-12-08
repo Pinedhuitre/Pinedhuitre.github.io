@@ -15,7 +15,10 @@ hr {height: 1px; color: #0085ca; width: 100%; border: none;background-color: #00
     'Helvetica Neue', sans-serif;display:block;width: 100px;margin:0 auto;font-size: xx-large;}
 select{font-size: x-large;border-radius: 20%;background-color: #0085ca;color: white;}
 
-
+/*css Responsive*/
+@media screen and (max-width: 780px) {header{justify-content: space space-around  ;flex-direction: column;max-height: 400px;align-items: center;
+}.ContainerGauche,.ContainerDroit{flex-direction: row;display: flex;}}
+  
   
 
 
@@ -72,7 +75,7 @@ footer{display: flex;height:100px;justify-content: space-around;font-size: small
 /*nos produits*/
 #fondbois{background-image: url(./img/boards-black-line-texture-background-wood-wallpaper-wood-texture-wallpapers.jpg);}
 #fondbois section{padding-top: 5%;}
-.containertarif{display: flex;justify-content:space-around;color: white;font-size: large;flex-wrap:wrap-reverse}
+.containertarif{display: flex;justify-content:space-around;color: white;font-size: large;flex-wrap:wrap-reverse;}
 .containertarif3{display: flex;justify-content:space-around;color: white;font-size: large;flex-direction: row-reverse;flex-wrap:wrap-reverse}
 .photohuitreG img{height: 600px;}
 .containerTableau{display:flex ;flex-direction: column;justify-content:space-around;align-items: center;}
@@ -88,7 +91,7 @@ th{width:150px;height:100px;}
 td{width:150px;text-align:center;height:25px}
 caption{font-size: xx-large;}
 
-.PhotoVin img{max-width: 600px;}
+.PhotoVin {width: 400px;  }
 .tableauC td:first-child,.tableauC td:nth-child(2),.tableauD td:first-child,.tableauD td:nth-child(2){width: 275px;text-align: start;}
 .PhotoEpicerie{max-width: 400px;}
 .tableauD tr{height:55px}
@@ -119,5 +122,7 @@ caption{font-size: xx-large;}
 .pau li,.Bordeaux li,.Toulouse li .Biarritz li{font-size: large;}
 
 /*css Responsive*/
-@media screen and (max-device-width: 480px) {header{justify-content: space-around  ;flex-direction: column;max-height: 400px;align-items: center;
-}.ContainerCentral{justify-content: space-around;}.ContainerGauche img,.ContainerDroit img{opacity:0%;}.blabla2{border-radius: 0%;}}
+@media screen and (max-device-width: 480px ) and (max-width: 780px){header{justify-content: space-around  ;flex-direction: column;max-height: 400px;align-items: center;
+}.ContainerCentral{justify-content: space-around;}.ContainerGauche img,.ContainerDroit img{opacity:0%;}.blabla2{border-radius: 0%;} .PhotoVin img{max-width: 200px;}}
+
+  
