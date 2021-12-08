@@ -122,7 +122,12 @@ caption{font-size: xx-large;}
 .pau li,.Bordeaux li,.Toulouse li .Biarritz li{font-size: large;}
 
 /*css Responsive*/
-@media screen and (max-device-width: 480px ) and (max-width: 780px){header{justify-content: space-around  ;flex-direction: column;max-height: 400px;align-items: center;
-}.ContainerCentral{justify-content: space-around;}.ContainerGauche img,.ContainerDroit img{opacity:0%;}.blabla2{border-radius: 0%;} .PhotoVin img{max-width: 200px;}}
+@media screen and (max-device-width: 480px ) , (max-width: 780px){header{justify-content: space-around  ;flex-direction: column;max-height: 400px;align-items: center;
+}.ContainerCentral{justify-content: space-around;}
+.ContainerGauche img,.ContainerDroit img{opacity:0%;}
+.blabla2{border-radius: 0%;} .PhotoVin img{max-width: 200px;}
+
+
+}
 
   
