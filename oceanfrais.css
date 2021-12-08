@@ -122,5 +122,5 @@ caption{font-size: xx-large;}
 .pau li,.Bordeaux li,.Toulouse li .Biarritz li{font-size: large;}
 
 /*css Responsive*/
-@media screen and (max-width: 780px) {header{justify-content: space-around  ;flex-direction: column;max-height: 400px;align-items: center;
+@media screen and (max-width: 980px) {header{justify-content: space-around  ;flex-direction: column;max-height: 400px;align-items: center;
 }.ContainerCentral{justify-content: space-around;}.ContainerGauche img,.ContainerDroit img{opacity:0%;}.blabla2{border-radius: 0%;}}
