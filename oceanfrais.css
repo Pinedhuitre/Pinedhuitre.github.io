@@ -73,7 +73,7 @@ footer{display: flex;height:100px;justify-content: space-around;font-size: small
 #fondbois{margin:auto;width:auto;background-image: url(./img/boards-black-line-texture-background-wood-wallpaper-wood-texture-wallpapers.jpg);}
 #fondbois section{padding-top: 5%;}
 .containertarif{display: flex;justify-content:space-around;color: white;font-size: large;flex-wrap:wrap-reverse;}
-.containertarif3{display: flex;justify-content:space-around;color: white;font-size: large;flex-direction: row-reverse;flex-wrap:wrap-reverse}
+.containertarif3{align-items: center;display: flex;justify-content:space-around;color: white;font-size: large;flex-direction: row-reverse;flex-wrap:wrap-reverse}
 .photohuitreG img{height: 600px;}
 .containerTableau{display:flex ;flex-direction: column;justify-content:space-around;align-items: center;}
 
@@ -90,6 +90,8 @@ caption{font-size: xx-large;}
 
 .PhotoVin {width: 400px;  }
 .tableauC td:first-child,.tableauC td:nth-child(2),.tableauD td:first-child,.tableauD td:nth-child(2){width: 275px;text-align: start;}
+.tableauD td:first-child{width: 375px;text-align: start;}
+.tableauD td:nth-child(2){width: 375px;text-align: center;}
 .PhotoEpicerie{max-width: 400px;}
 .tableauD tr{height:55px}
 .Sectarivage{display: flex;justify-content: center;}
