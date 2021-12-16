@@ -135,7 +135,7 @@ header{align-items: center;display:flex;}}
 
 @media screen and (max-width: 780px){header{padding-right:50px;justify-content: space-between ;flex-direction: column;
   max-height: 400px;align-items: center;width: 480px;}
-.fond{margin:auto;width:auto;width:480px;display: flex;justify-content: space-between ;flex-direction: column;}
+.fond{margin:auto;width:auto;width:480px;display: flex;justify-content: space-between ;flex-direction: column;align-items: center;}
 .ContainerCentral{justify-content: space-around;}
 .ContainerGauche img,.ContainerDroit img{opacity:0%;}
 .blabla2{border-radius: 0%;} 
