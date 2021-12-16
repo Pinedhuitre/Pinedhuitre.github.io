@@ -1,4 +1,4 @@
-body{background-color:#00283d}
+body{background-color:#00283d;margin:auto;width:auto}
 a{text-decoration:none}
 #fond{margin:auto;width:auto;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   ;color:#0085ca;margin-bottom: 30px;}
@@ -123,6 +123,7 @@ caption{font-size: xx-large;}
 /*css Responsive*/
 @media screen and (max-device-width: 480px ) , (max-width: 780px){header{padding-right:50px;justify-content: space-between ;flex-direction: column;
   max-height: 400px;align-items: center;width: 480px;}
+.fond{margin:auto;width:auto;width:480px;display: flex;justify-content: space-between ;flex-direction: column;}
 .ContainerCentral{justify-content: space-around;}
 .ContainerGauche img,.ContainerDroit img{opacity:0%;}
 .blabla2{border-radius: 0%;} 
