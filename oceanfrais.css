@@ -121,7 +121,7 @@ caption{font-size: xx-large;}
 .pau li,.Bordeaux li,.Toulouse li .Biarritz li{font-size: large;}
 
 /*css Responsive*/
-@media screen and (max-device-width: 480px ) , (max-width: 780px){header{padding-right:50px;justify-content: space-between ;flex-direction: column;
+@media screen and (max-device-width: 480px ) {header{padding-right:50px;justify-content: space-between ;flex-direction: column;
   max-height: 400px;align-items: center;width: 480px;}
 .fond{margin:auto;width:auto;width:480px;display: flex;justify-content: space-between ;flex-direction: column;}
 .ContainerCentral{justify-content: space-around;}
@@ -133,7 +133,17 @@ caption{font-size: xx-large;}
 .item1,.item2{text-align: center;justify-content:left;font-size: 15px;height: 180px;max-width: 500px;}
 header{align-items: center;display:flex;}
 
-
+@media screen and (max-width: 480px){header{padding-right:50px;justify-content: space-between ;flex-direction: column;
+  max-height: 400px;align-items: center;width: 480px;}
+.fond{margin:auto;width:auto;width:480px;display: flex;justify-content: space-between ;flex-direction: column;}
+.ContainerCentral{justify-content: space-around;}
+.ContainerGauche img,.ContainerDroit img{opacity:0%;}
+.blabla2{border-radius: 0%;} 
+.PhotoVin img{max-width: 400px;}
+.it2b{width: 70px}
+.it2b a {font-size: 11px;}
+.item1,.item2{text-align: center;justify-content:left;font-size: 15px;height: 180px;max-width: 500px;}
+header{align-items: center;display:flex;}
 }
 
   
