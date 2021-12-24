@@ -123,6 +123,7 @@ caption{font-size: xx-large;}
 /*css Responsive*/
 @media screen and (max-device-width: 480px ) {header{padding-right:50px;justify-content: center ;flex-direction: column;
   max-height: 300px;align-items: center;width: auto;}
+  header div{justify-content: center;align-items: center;}
 .fond{margin:auto;width:auto;width:100%;display: flex;justify-content: space-between ;flex-direction: column;}
 .ContainerCentral{justify-content: space-around;}
 .ContainerGauche img,.ContainerDroit img{opacity:0%;}
@@ -131,8 +132,8 @@ caption{font-size: xx-large;}
 .it2b{width: 70px}
 .it2b a {font-size: 11px;}
 .item1,.item2{text-align: center;justify-content:left;font-size: 15px;height: 180px;max-width: 500px;}
-header{align-items: center;display:flex;}
 #fondbois{width: auto;}
+#fondEvenement{margin:auto;width:auto;background-image: none;}
 }
 
 @media screen and (max-width: 780px){header{padding-right:50px;justify-content:center ;flex-direction: column;
@@ -145,7 +146,6 @@ header{align-items: center;display:flex;}
 .it2b{width: 70px}
 .it2b a {font-size: 11px;}
 .item1,.item2{text-align: center;justify-content:left;font-size: 15px;height: 180px;max-width: 500px;}
-header{align-items: center;display:flex;}
 #fondbois{width: auto;}
-.entrez{display: flex;flex-direction: column;align-items: center;}
+#fondEvenement{margin:auto;width:auto;background-image: none;}
 }
