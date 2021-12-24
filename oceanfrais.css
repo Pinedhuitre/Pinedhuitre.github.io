@@ -126,7 +126,7 @@ caption{font-size: xx-large;}
 .fond{margin:auto;width:auto;display: flex;justify-content: space-between ;flex-direction: column;align-items: center;}
 .ContainerCentral{justify-content: space-around;}
 .ContainerGauche ,.ContainerDroit {flex-direction: row;height: 400px;max-width:100%}
-.ContainerGauche img,.ContainerDroit img{padding:20px;height: 300px;width: 300px;}
+.ContainerGauche img,.ContainerDroit img{height: 300px;width: 300px;}
 .blabla2{border-radius: 0%;} 
 
 .PhotoVin img{max-width: 400px;}
@@ -142,7 +142,7 @@ caption{font-size: xx-large;}
 .fond{margin:auto;width:auto;display: flex;justify-content: space-between ;flex-direction: column;align-items: center;}
 .ContainerCentral{justify-content: space-around;}
 .ContainerGauche ,.ContainerDroit {flex-direction: row;height: 400px;max-width:100%}
-.ContainerGauche img,.ContainerDroit img{padding:20px;height: 300px;width: 300px;}
+.ContainerGauche img,.ContainerDroit img{height: 300px;width: 300px;}
 .blabla2{border-radius: 0%;} 
 
 .PhotoVin img{max-width: 400px;}
