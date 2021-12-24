@@ -74,7 +74,7 @@ footer{display: flex;height:100px;justify-content: space-around;font-size: small
 .footer2{border-right:1px solid #0085ca;border-left:1px solid #0085ca;padding-right: 100px;padding-left: 100px;}
 
 /*nos produits*/
-#fondbois{margin:auto;width:auto;background-image: url(./img/boards-black-line-texture-background-wood-wallpaper-wood-texture-wallpapers.jpg);}
+#fondbois{margin:auto;width:auto;background-image: url(./img/boards-black-line-texture-background-wood-wallpaper-wood-texture-wallpapers.webp);}
 #fondbois section{padding-top: 5%;}
 .containertarif{display: flex;justify-content:space-around;color: white;font-size: large;flex-wrap:wrap-reverse;}
 .containertarif3{align-items: center;display: flex;justify-content:space-around;color: white;font-size: large;flex-direction: row-reverse;flex-wrap:wrap-reverse}
@@ -102,7 +102,7 @@ caption{font-size: xx-large;}
 .Arrivage{color: white;display: flex;justify-content: center;align-items: center;flex-direction: column;max-width: 800px;}
 
 /*Evenementiel*/
-#fondEvenement{margin:auto;width:auto;background-image: url(./img/Evenemtiel.jpg);background-attachment: fixed;background-repeat: no-repeat;background-position: center;}
+#fondEvenement{margin:auto;width:auto;background-image: url(./img/Evenemtiel.webp);background-attachment: fixed;background-repeat: no-repeat;background-position: center;}
 .Total{max-height:1500px;display: flex;justify-content: space-around;flex-wrap:wrap}
 .Total img{max-height: 400px;}
 .ContainerGauche{display: flex;flex-direction: column; justify-content:space-around;max-width:18%;align-items: center;}
